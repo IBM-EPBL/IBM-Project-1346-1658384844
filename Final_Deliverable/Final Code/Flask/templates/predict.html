@@ -1,0 +1,45 @@
+{% extends "predict_base.html" %} {% block content %}
+
+<center>
+    <h2 style="font-size: 40px;">
+        ECG Arrhythmia
+        <span style="color: #2f8be0; font-size: 3vw">Classification</span>
+    </h2>
+</center>
+
+<div>
+    <form id="upload-file" method="post" enctype="multipart/form-data">
+        <center> <label for="imageUpload" class="upload-label">
+                Choose...
+            </label>
+            <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+        </center>
+    </form>
+
+    <center>
+        <div class="image-section" style="display:none;">
+            <div class="img-preview">
+                <div id="imagePreview">
+                </div>
+            </div>
+        </div>
+    </center>
+</div>
+<center>
+    <div class="btn3" id="btn-predict"
+        style="padding: 8px 34px; width: 120px; margin-top: 30px; padding: 14px 20px 12px 20px; background-color: #007bff; border-radius: 45px; text-align: center; color: #fff; cursor: pointer;">
+        Predict</div>
+    <div class="loader" style="display:none;"></div>
+</center>
+
+<h3 style="color:Black" id="result">
+    <span> </span>
+</h3>
+
+</div>
+
+</div>
+
+
+
+{% endblock %}

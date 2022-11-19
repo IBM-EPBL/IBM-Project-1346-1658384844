@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{url_for('static', filename='images/fevicon.png' )}}" type="image/x-icon">
+    <title>Life Care - About Us</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/about.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+</head>
+<style>
+    .footer {
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        margin: 21.44px 0px;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <!--Navigation Bar-->
+        <div class="nav">
+            <div class="logo">
+                <a href="/"><img src="static/images/logo.png" alt="Website Title" style="width:190px" /></a>
+            </div>
+            <div class="links">
+                <a href="/">Home</a>
+                <a href="/info">Info</a>
+                <a href="/about" class="mainLink">About Us</a>
+                <a href="/contact">Contact Us</a>
+                <a href="/upload" class="btn1">Predict</a>
+            </div>
+        </div>
+        <div class="landing">
+            <div class="landingText" data-aos="fade-up" data-aous-duration="1000">
+                <h1>
+                    We are a team of
+                    <span style="color: #e0501b; font-size: 4vw">Arrthymia Prediction</span>
+                </h1>
+                <h3>
+                    In this project, we build an effective electrocardiogram (ECG) arrhythmia classification method
+                    using a convolutional
+                    neural network (CNN), in which we classify ECG into seven categories, one being normal and the other
+                    six being different
+                    types of arrhythmia using deep two-dimensional CNN with grayscale ECG images. We are creating a web
+                    application where
+                    the user selects the image which is to be classified. The image is fed into the model that is
+                    trained and the cited
+                    class will be displayed on the webpage.
+                </h3>
+            </div>
+            <div class="landingImage" data-aos="fade-down" data-aous-duration="2000">
+                <img src="static/images/about_us.png" alt="aboutImg" style="width: 450px; height:450px" />
+            </div>
+        </div>
+        <div class="main">
+            <div class="profile-card">
+                <div class="img">
+                    <img src="static/images/profile_avatar.png">
+                </div>
+                <div class="caption">
+                    <h3>Muthamizhan Rio</h3>
+                    <p>Professional DL Engineer, Back End Developer</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="img">
+                    <img src="static/images/profile_avatar.png">
+                </div>
+                <div class="caption">
+                    <h3>Vignesh Champ</h3>
+                    <p>Full Stack Developer, Web Designer, Deep Learning Engineer</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/the_._._champ/"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="img">
+                    <img src="static/images/profile_avatar.png">
+                </div>
+                <div class="caption">
+                    <h3>Vetriselvan </h3>
+                    <p>Back End Developer</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="img">
+                    <img src="static/images/profile_avatar.png">
+                </div>
+                <div class="caption">
+                    <h3>Bharathidasan</h3>
+                    <p>Front End Developer</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h1>LifeCare</h1>
+            <div class="footerlinks">
+                <a href="/home">Home</a>
+                <a href="/info">Info</a>
+                <a href="/about">About Us</a>
+                <a href="/contact">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

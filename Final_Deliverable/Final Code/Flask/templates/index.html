@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Life Care - Heart Prediction Online</title>
+  <link rel="shortcut icon" href="{{url_for('static', filename='images/fevicon.png' )}}" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css' )}}" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!--Navigation Bar-->
+    <div class="nav">
+      <div class="logo">
+        <a href="/">
+          <img src="static\images\logo.png" style="width:190px" />
+        </a>
+      </div>
+      <div class="links">
+        <a href="/home" class="mainLink">Home</a>
+        <a href="/info">Info</a>
+        <a href="/about">About Us</a>
+        <a href="/contact">Contact Us</a>
+        <a href="/upload" class="btn1">Predict</a>
+      </div>
+    </div>
+    <!--Landing Page-->
+    <div class="landing">
+      <div class="landingText" data-aos="fade-up" data-aous-duration="1000">
+        <h1>
+          Classification of Arrhythmia
+          <span style="color: #e0501b; font-size: 4vw">Prediction</span>
+        </h1>
+        <h3>
+          According to the World Health Organization (WHO), cardiovascular diseases (CVDs) are the number one cause of
+          death today. Over 17.7 million people died from CVDs in the
+          year 2017 all over the world which...
+        </h3>
+
+        <div class="btn2"><a href="/info">Read more</a>
+        </div>
+      </div>
+      <div class="landingImage" data-aos="fade-down" data-aous-duration="2000">
+        <img src="static/images/banner_img.jpg" alt="bannerImg" style="width: 500px; height:360px" />
+      </div>
+    </div>
+
+    <!--Service Section-->
+    <div class="about">
+      <div class="aboutText" data-aos="fade-up" data-aous-duration="1000">
+        <h1 style="margin: 20px;">
+          Our Patients Are at Centre
+          <span style="color: #2f8be0; font-size: 3vw">of Every We Do</span>
+        </h1>
+        <div class="image-container">
+          <img src="/static/images/connsultPationt.png" alt="consultPationt"
+            style="width:400px; margin:100px 0px 0px 90px;"></img>
+        </div>
+      </div>
+      <div class="aboutList" data-aos="fade-left" data-aous-duration="1000">
+        <ol>
+          <li>
+            <span>01</span>
+            <p>99.8% accurate result.</p>
+          </li>
+          <li>
+            <span>02</span>
+            <p>No need to go hospital.</p>
+          </li>
+          <li>
+            <span>03</span>
+            <p>No need to login</p>
+          </li>
+          <li>
+            <span>04</span>
+            <p>24/7 Support.</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <!--Info Section-->
+    <div class="infoSection">
+      <div class="infoHeader" data-aos="fade-up" data-aous-duration="1000">
+        <h1>
+          We Analyse Youe Health states <br /><span style="color: #e0501b">In Order to Top Service.</span>
+        </h1>
+      </div>
+      <div class="infoCards">
+        <div class="card one" data-aos="fade-up" data-aous-duration="1000">
+          <img src="static/images/banner_1.svg" class="cardoneImg" alt="" data-aos="fade-up"
+            data-aous-duration="1100" />
+          <div class="cardbgone"></div>
+          <div class="cardContent">
+            <h2>Health State</h2>
+            <p>
+              Easy to know Health state
+            </p>
+            <a href="/">
+              <div class="cardBtn">
+                <img src="static/images/next.png" alt="" class="cardIcon" />
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="card two" data-aos="fade-up" data-aous-duration="1300">
+          <img src="static/images/banner_1.svg" class="cardtwoImg" alt="" data-aos="fade-up"
+            data-aous-duration="1200" />
+          <div class="cardbgtwo"></div>
+          <div class="cardContent">
+            <h2>User Friendly</h2>
+            <p>
+              Easy for people to use, prediction
+            </p>
+            <a href="/">
+              <div class="cardBtn">
+                <img src="static/images/next.png" alt="" class="cardIcon" />
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="card three" data-aos="fade-up" data-aous-duration="1600">
+          <img src="static/images/banner_1.svg" class="cardthreeImg" alt="" data-aos="fade-up"
+            data-aous-duration="1000" />
+          <div class="cardbgthree"></div>
+          <div class="cardContent">
+            <h2>Classification of Arrhythmia</h2>
+            <p>
+              Prediction Classification of Arrhythmia
+            </p>
+            <a href="/upload">
+              <div class="cardBtn">
+                <img src="static/images/next.png" alt="" class="cardIcon" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Banner And Footer-->
+    <div class="banner">
+      <div class="bannerText" data-aos="fade-right" data-aous-duration="1000">
+        <h1>
+          Download the LifeCare App Today <br /><span style="font-size: 1.6vw; font-weight: normal"
+            class="bannerInnerText">Stay Updated and get all your medical needs taken care of!</span>
+        </h1>
+        <a href="/"><img src="static/images/AndroidPNG.png" alt="" /></a>
+        <a href="/"><img src="static/images/iosPNG.png" alt="" /></a>
+      </div>
+      <div class="bannerImg" data-aos="fade-up" data-aous-duration="1000">
+        <img src="static/images/app.png" alt="" />
+      </div>
+    </div>
+
+    <div class="footer">
+      <h1>LifeCare</h1>
+      <div class="footerlinks">
+        <a href="/home" class="mainLink">Home</a>
+        <a href="/info">Info</a>
+        <a href="/about">About Us</a>
+        <a href="/contact">Contact Us</a>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

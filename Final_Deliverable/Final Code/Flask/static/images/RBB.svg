@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="114.18mm" height="72.232mm" version="1.1" viewBox="0 0 114.18 72.232" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <use transform="translate(55.547 -.00072355)" width="100%" height="100%" xlink:href="#j"/>
+  <use transform="translate(55.547)" width="100%" height="100%" xlink:href="#d"/>
+  <rect id="j" x="3.3339" y="3.3963" width="51.909" height="65.427" fill="#fff" stroke-width="2.1436" style="paint-order:markers fill stroke"/>
+  <g id="d" transform="matrix(2.1436 0 0 2.1436 .28358 .28358)">
+    <use transform="matrix(0,-1.2625,1,0,-5.393,33.821)" width="100%" height="100%" xlink:href="#a"/>
+    <g id="e">
+      <g id="f">
+        <use transform="matrix(0,-1.2625,1,0,-22.345,33.821)" width="100%" height="100%" xlink:href="#b"/>
+        <g id="g">
+          <use transform="matrix(0,-1.2625,1,0,-29.609,33.821)" width="100%" height="100%" xlink:href="#a"/>
+          <use transform="matrix(0,-1.2625,1,0,-28.398,33.821)" width="100%" height="100%" xlink:href="#a"/>
+        </g>
+        <use transform="translate(2.422)" width="100%" height="100%" xlink:href="#g"/>
+      </g>
+      <use transform="translate(6.054)" width="100%" height="100%" xlink:href="#f"/>
+    </g>
+    <use transform="translate(12.108)" width="100%" height="100%" xlink:href="#e"/>
+    <g id="h">
+      <g id="i">
+        <path id="b" d="m25.639 28.611h-24.176" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4.3" stroke-width=".11774" style="paint-order:markers fill stroke"/>
+        <use transform="translate(0,-3.632)" width="100%" height="100%" xlink:href="#c"/>
+        <use transform="translate(0,-6.053)" width="100%" height="100%" xlink:href="#c"/>
+      </g>
+      <use transform="translate(0,-6.054)" width="100%" height="100%" xlink:href="#i"/>
+    </g>
+    <use transform="translate(-.04 -12.101)" width="100%" height="100%" xlink:href="#h"/>
+    <use transform="translate(0,-29.059)" width="100%" height="100%" xlink:href="#a"/>
+    <use transform="translate(0,-24.216)" width="100%" height="100%" xlink:href="#b"/>
+    <use transform="translate(-.001 -27.848)" width="100%" height="100%" xlink:href="#a"/>
+    <g id="c">
+      <path id="a" d="m25.639 31.032h-24.176" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4.3" stroke-width=".047095" style="paint-order:markers fill stroke"/>
+      <use transform="translate(0,-1.211)" width="100%" height="100%" xlink:href="#a"/>
+    </g>
+  </g>
+  <path d="m3.3339 35.674h8.3825c1.7575 0 1.9607 0 2.3301-0.21209 0.36938-0.21209 0.90597-0.6363 1.39-0.9918 0.484-0.35549 0.91334-0.64091 1.403-0.60651 0.48962 0.0344 1.0381 0.38829 1.4916 0.7434s0.81176 0.71105 1.1164 0.88901c0.30469 0.17796 0.55536 0.17796 1.0119 0.17796h1.5875c0.46848 0 0.74308 0 0.98586-0.68546 0.24278-0.68546 0.45442-2.056 0.64248-3.1155 0.18806-1.0595 0.3523-1.8069 0.47168-1.784 0.1194 0.02287 0.19389 0.81591 0.5443 2.7747 0.35039 1.9587 0.97651 5.0818 1.3659 7.1407 0.38942 2.0589 0.54207 3.0533 0.66578 3.0503 0.12371-3e-3 0.2182-1.0028 0.55242-5.0454 0.33423-4.0426 0.90785-11.124 1.2783-15.381s0.53766-5.691 0.68736-5.7058c0.14973-0.01479 0.2819 1.3884 0.67324 4.7504 0.39133 3.362 1.0417 8.6811 1.5075 11.341 0.46578 2.6602 0.74606 2.6602 1.4414 2.6602 0.69534 0 1.8037 0 3.5993 1.7008 1.7956 1.7008 4.2782 5.1024 5.9971 5.9019 1.719 0.79941 2.6739-1.0029 3.3959-2.7037 0.72205-1.7009 1.2114-3.3003 1.7726-4.0996 0.56117-0.79937 1.1938-0.79937 2.4885-0.79937h5.2078" fill="none" stroke="#00f" stroke-linejoin="round" stroke-miterlimit="4.3" stroke-width=".56715" style="paint-order:markers fill stroke"/>
+  <path d="m58.962 35.638c3.3425 0.012 6.6846 0.02386 8.4809 0.02984 1.7963 6e-3 2.047 6e-3 2.6497-0.4419 0.60276-0.44786 1.5576-1.343 2.4763-1.3428 0.91874 2.72e-4 1.802 0.89546 2.5483 1.343 0.74627 0.44758 1.355 0.44758 1.9761 0.44758 0.62108 0 1.2549 0 1.7458 0.40612 0.4908 0.40615 0.84112 1.2211 1.0211 1.3545 0.18006 0.1334 0.19099-0.41219 0.5416-3.7725 0.35056-3.3603 1.0384-9.5139 1.4221-13.096s0.5981-3.5193 0.74756-3.3404c0.25682 0.53718 0.23397 0.47346 0.58968 3.3819 0.35569 2.9084 0.84618 7.3617 1.1926 11.76s0.54861 8.7396 1.1746 10.302c0.62597 1.5621 1.6751 0.34475 2.3014-1.2845 0.62621-1.6292 0.83006-3.6711 1.3194-4.6908 0.48934-1.0197 1.2642-1.0197 1.7891-1.0197s0.79928 0 1.3189-0.86119c0.51958-0.86119 1.2828-2.5798 2.5457-4.0332 1.2629-1.4533 3.0244-2.6398 4.3202-2.4017 1.2958 0.23822 2.1265 1.9008 2.7676 3.3543 0.64111 1.4535 1.0922 2.6968 1.563 3.3193 0.47079 0.62233 0.96003 0.62233 2.1993 0.62233h5.2175" fill="none" stroke="#00f" stroke-linejoin="round" stroke-miterlimit="4.3" stroke-width=".56715" style="paint-order:markers fill stroke"/>
+  <g fill="#000000" font-family="sans-serif" font-size="5.0371px" letter-spacing="0px" stroke-width=".12593" word-spacing="0px">
+    <text x="23.146063" y="51.737782" style="line-height:1.25" xml:space="preserve"><tspan x="23.146063" y="51.737782" font-family="sans-serif" font-weight="bold" stroke-width=".12593">rSR</tspan></text>
+    <text x="80.810661" y="50.69313" style="line-height:1.25" xml:space="preserve"><tspan x="80.810661" y="50.69313" font-family="sans-serif" font-weight="bold" stroke-width=".12593">qRs</tspan></text>
+    <text x="6.1850424" y="9.9061489" style="line-height:1.25" xml:space="preserve"><tspan x="6.1850424" y="9.9061489" font-family="sans-serif" font-weight="bold" stroke-width=".12593">V1</tspan></text>
+    <text x="62.325634" y="9.8315859" style="line-height:1.25" xml:space="preserve"><tspan x="62.325634" y="9.8315859" font-family="sans-serif" font-weight="bold" stroke-width=".12593">V6</tspan></text>
+  </g>
+</svg>
