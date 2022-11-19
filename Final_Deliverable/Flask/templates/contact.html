@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{url_for('static', filename='images/fevicon.png' )}}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/contact.css' )}}" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css' )}}" />
+    <title>Life Care - Contact US</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <div class="logo">
+                <a href="/">
+                    <img src="static\images\logo.png" style="width:190px" />
+                </a>
+            </div>
+            <div class="links">
+                <a href="/home" class="mainLink">Home</a>
+                <a href="/info">Info</a>
+                <a href="/about">About Us</a>
+                <a href="/contact">Contact Us</a>
+                <a href="/upload" class="btn1">Predict</a>
+            </div>
+        </div>
+        <div class="container" data-aos="fade-down" data-aous-duration="1000">
+            <div class="image" data-aos="fade-right" data-aous-duration="6000">
+                <img src="static/images/contact.png" alt="">
+            </div>
+            <div class="form-area">
+                <h2>Contact US</h2>
+                <form action="{{url_for('send_message')}}" method="post">
+                    <input type="text" name="name" placeholder="Full Name">
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea cols="30" name="message" rows="3" placeholder="Your Message"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

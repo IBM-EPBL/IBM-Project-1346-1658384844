@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life Care - About Classification of Arrhythmia</title>
+    <link rel="shortcut icon" href="{{url_for('static', filename='images/fevicon.png' )}}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css' )}}" />
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous">
+    </script>
+    <style>
+        .banner {
+            margin: 60px;
+            width: auto;
+            height: 300px;
+            /* Setup */
+            background-color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+            display: flex;
+            flex-direction: row;
+            padding: 50px;
+        }
+
+        .bannerText h1 {
+            font-size: 3vw;
+            color: #007bff;
+            font-weight: 600;
+        }
+
+        .bannerText p {
+            text-indent: 50px;
+            color: #777777;
+            font-size: 1.2vw;
+            font-weight: normal
+        }
+
+        .bannerText img {
+            width: 10vw;
+            margin-right: 20px;
+        }
+
+        .bannerImg img {
+            margin-left: 90px;
+            width: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--Navigation Bar-->
+        <div class="nav">
+            <div class="logo">
+                <a href="/"><img src="static/images/logo.png" alt="Website Title" style="width:190px" /></a>
+            </div>
+            <div class="links">
+                <a href="/home">Home</a>
+                <a href="/info" class="mainLink">info</a>
+                <a href="/about">About Us</a>
+                <a href="/contact">Contact Us</a>
+                <a href="/upload" class="btn1">Predict</a>
+            </div>
+        </div>
+        <!--Landing Page-->
+        <div class="landing">
+            <div class="landingText" data-aos="fade-up" data-aous-duration="1000">
+                <h1>
+                    Classification of Arrhythmia
+                    <span style="color: #e0501b; font-size: 4vw">Prediction</span>
+                </h1>
+                <h3>
+                    According to the World Health Organization (WHO), cardiovascular diseases (CVDs) are the number one
+                    cause of death
+                    today. Over 17.7 million people died from CVDs in the year 2017 all over the world which is about
+                    31% of all deaths, and
+                    over 75% of these deaths occur in low and middle-income countries. Arrhythmia is a representative
+                    type of CVD that
+                    refers to any irregular change from the normal heart rhythms. There are several types of arrhythmia
+                    including atrial
+                    fibrillation, premature contraction, ventricular fibrillation, and tachycardia. Although a single
+                    arrhythmia heartbeat
+                    may not have a serious impact on life, continuous arrhythmia beats can result in fatal
+                    circumstances.
+                </h3>
+            </div>
+            <div class="landingImage" data-aos="fade-down" data-aous-duration="2000">
+                <img src="static/images/banner_img.jpg" alt="bannerImg" style="width: 500px; height:360px" />
+            </div>
+        </div>
+        <div class="banner">
+            <div class="bannerText" data-aos="fade-right" data-aous-duration="1000">
+                <h1>
+                    Left Bundle Branch
+                </h1>
+                <p>A delay blockage of electrical impulses
+                    to the left of the heart. Left bundle brach block sometimes
+                    makes it harder for the heart to pump
+                    blood efficiently through the circulatory
+                    system.</p>
+                <p>Most people don't have symptoms. If
+                    symtoms occur, they inlcude fainting or
+                    a slow heart rate.</p>
+                <p>If there's an underlying condition, such
+                    as heart disease, that condition needs
+                    treatment. In patients with heart failure,
+                    a pacemaker can also relieve symptoms as
+                    well as prevent death.</p>
+            </div>
+            <div class="bannerImg" data-aos="fade-up" data-aous-duration="1000">
+                <img src="static/images/LBB.svg" alt="" />
+            </div>
+        </div>
+        <div class="banner">
+            <div class="bannerText" data-aos="fade-right" data-aous-duration="1000">
+                <h1>
+                    Normal
+                </h1>
+                <p>Note that the heart is beating
+                    in a regular sinus rhythm
+                    between 60-100 beats per
+                    minute (specifically 82 bpm).</p>
+                <p>All the important intervals
+                    on this recording are within
+                    normal ranges.</p>
+                <p>The normal ECG
+                    patterns seen in children
+                    differ considerably from those
+                    in adults.</p>
+            </div>
+            <div class="bannerImg" data-aos="fade-up" data-aous-duration="1000">
+                <img src="static/images/normal.svg" alt="" />
+            </div>
+        </div>
+        <div class="banner">
+            <div class="bannerText" data-aos="fade-right" data-aous-duration="1000">
+                <h1>
+                    Premature Atrial Contraction
+                </h1>
+                <p>usually, premature artial contraction have
+                    no clear cause and no health risks. In most
+                    cases, premature artrial contractions aren't a
+                    sign of heart disease and just happen
+                    naturally.</p>
+                <p>But some people who have PACs turn out to
+                    have related heart conditions, such as
+                    Cardiomyopathy (a weakend heart muscle)
+                    Caronary heart disease (fatty deposits in you blood vessels)</p>
+            </div>
+            <div class="bannerImg" data-aos="fade-up" data-aous-duration="1000">
+                <img src="static/images/PAC.jpg" alt="" />
+            </div>
+        </div>
+        <div class="banner">
+            <div class="bannerText" data-aos="fade-right" data-aous-duration="1000">
+                <h1>
+                    Premature Ventricular Contractions
+                </h1>
+                <p>Extra, abnorma heartbeats that begininone of the
+                    Heart's two lower chambers.</p>
+                <p>Premature ventricular contractions (PVCs) occur
+                    in most people at some point. Causes may include certain
+                    medication, alcohol, some illegal drugs, caffeine,
+                    tobacco, excercise or anxiety.</p>
+                <p>
+                    PVCs often cause no symtoms. When symptoms do
+                    occur, they feel like a flip-flop or skipped-beat
+                    sensation in the chest.
+                </p>
+                <p>Most people with isolated PVCs and an otherwise
+                    normal heart don't need treatment. PVCs occurring
+                    continuously serious cardiac than 30 seconds is a
+                    potentially serious cardiac condition known as
+                    ventriclular tachycardia.</p>
+            </div>
+            <div class="bannerImg" data-aos="fade-up" data-aous-duration="1000">
+                <img src="static/images/PVC.jpg" alt="" />
+            </div>
+        </div>
+        <div class="banner">
+            <div class="bannerText" data-aos="fade-right" data-aous-duration="1000">
+                <h1>
+                    Right Bundle Branch
+                </h1>
+                <p>Right bundle branch block is associated with
+                    structural changes from strech or ischemia to
+                    the myocardium. It can also occur
+                    iatorgenically from certain common cardiac
+                    precedures, such as right heart catheterization.</p>
+                <p>Although there is no significant association
+                    with cardiovascular risk factors, the presence
+                    with cardiovascular risk factors, the presence
+                    of a right bundle branch block is a predictor of
+                    mortality in myocardial infarction, heart
+                    failure, and certain heart blocks.</p>
+                <p>In asymptomatic patients, isolated right bundle
+                    brach block typically does not need further
+                    evaluation.</p>
+            </div>
+            <div class="bannerImg" data-aos="fade-up" data-aous-duration="1000">
+                <img src="static/images/RBB.svg" alt="" />
+            </div>
+        </div>
+        <div class="banner">
+            <div class="bannerText" data-aos="fade-right" data-aous-duration="1000">
+                <h1>
+                    Ventricular Fibrillation
+                </h1>
+                <p>A life-threatening heart rhythm that results in a
+                    rapid, inadeuate heartbeat.</p>
+                <p>Ventricular fibrillation (VF) is a rapid,
+                    Life-threatening heart rhythm starting in the bottom
+                    chambers of the heart. It can be triggered by a heart attack.</p>
+                <p>Because the heart doesn't pump adequately during
+                    ventricular fibrillation, sustained VF can cause
+                    low blood pressure, losso f consciousness of death.</p>
+                <p>Emergency treatment includes immediate
+                    defibrillation with a n automated external
+                    defibrillator (AED) and cardiopulmonary
+                    resuscitation(CPR). Long-term therapy includes
+                    implantable defibrillators and medcations to
+                    prevent recurrence.</p>
+            </div>
+            <div class="bannerImg" data-aos="fade-up" data-aous-duration="1000">
+                <img src="static/images/VF.png" alt="" />
+            </div>
+        </div>
+        <div class="footer">
+            <h1>LifeCare</h1>
+            <div class="footerlinks">
+                <a href="/home">Home</a>
+                <a href="/info" class="mainLink">Info</a>
+                <a href="/about">About Us</a>
+                <a href="/conduct">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
