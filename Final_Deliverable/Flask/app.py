@@ -73,7 +73,7 @@ def send_message():
         subject = request.form['subject']
         msg = request.form['message']
         message = Message(subject, sender=email,
-                          recipients=['vigneshthecute143@gmail.com', 'murasutamil2002@gmail.com'])
+                          recipients=['vigneshthecute143@gmail.com', 'muthamizhanrio@gmail.com'])
 
         message.body = """
         Hello there,
